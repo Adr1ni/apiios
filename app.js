@@ -14,7 +14,7 @@ let combis = [
     { id: 5, name: 'combi1', image: 'https://i.pinimg.com/736x/f6/76/20/f67620d72710bf2323c87ada67398b8c.jpg', numerosRutas: 5, numerosdeUnidades: 10 },
     { id: 6, name: 'megabus', image: 'https://pbs.twimg.com/media/GP6_nR_WEAAjaI1?format=png&name=360x360', numerosRutas: 1, numerosdeUnidades: 26 },
     { id: 7, name: 'transcayma', image: 'https://pbs.twimg.com/media/GP6_nR8XsAALlLD?format=png&name=360x360', numerosRutas: 8, numerosdeUnidades: 25 },
-    { id: 8, name: 'unionAqp', image: '', numerosRutas: 7, numerosdeUnidades: 11 },
+    { id: 8, name: 'unionAqp', image: 'https://pbs.twimg.com/media/GP6_nR_WEAAjaI1?format=png&name=360x360', numerosRutas: 7, numerosdeUnidades: 11 },
 ];
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
